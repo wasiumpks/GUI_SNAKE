@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="menu" maxHeight="300.0" maxWidth="300.0" minHeight="304.0" minWidth="600.0" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="600.0">
+         <children>
+              <Button id="male" fx:id="easy" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Male" />
+              <Button id="srednie" fx:id="medium" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Srednie" />
+              <Button id="duze" fx:id="hard" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Duze" />
+         </children>
+      </VBox>
+    </children>
+</Pane>
